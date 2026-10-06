@@ -3,11 +3,10 @@ using namespace std;
 
 void insertElement(int A[], int *n, int k, int item)
 {
-    int j;
-
-    for (j = *n - 1; j >= k; j--)
+    
+    for (int i = *n - 1; i >= k; i--)
     {
-        A[j + 1] = A[j];
+        A[i + 1] = A[i];
     }
 
     A[k] = item;
