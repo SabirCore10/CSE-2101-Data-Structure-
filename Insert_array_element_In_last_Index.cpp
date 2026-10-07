@@ -8,7 +8,7 @@ int main()
 
     cout<<"Before insert: ";
     for(int i=0;i<length;i++)
-    {
+    { 
         cout<<A[i]<<" ";
     }
     
