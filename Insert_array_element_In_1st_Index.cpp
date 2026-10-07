@@ -4,8 +4,7 @@ int main()
 {
     int A[10] = {10,20,30,40,50,60,70};
     int position,value;
-    int length = 7; //  ekhane array length = 5.
-
+    int length = 7;
 
     cout<<"Before insert: ";
     for(int i=0;i<length;i++)
