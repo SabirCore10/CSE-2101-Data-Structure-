@@ -10,12 +10,10 @@ int main()
         cout<<A[i]<<" ";
     }
     
-    int Index_Position;
-    cout<<endl<<"Enter position: ";
-    cin>>Index_Position;
+    int position = length-1;
     
 
-    for(int i=Index_Position;i<length-1;i++)
+    for(int i=position;i<length-1;i++)
     {
         A[i] = A[i+1];  
     }

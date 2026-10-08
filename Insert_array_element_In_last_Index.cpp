@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int A[10] = {10,20,30,40,50,60,70};
-    int position,value;
+    int Index_position,value;
     int length = 7;
 
     cout<<"Before insert: ";
@@ -13,17 +13,17 @@ int main()
     }
     
     cout<<endl<<"Enter position and value: ";
-    cin>>position>>value;
+    cin>> Index_position>>value;
 
    
     
-    for(int i = length; i>position;i--)
+    for(int i = length; i> Index_position;i--)
     {
         A[i] = A[i-1];
     }
 
     // new value inserted
-    A[position] = value;
+    A[ Index_position] = value;
     length++;  // length baraite hobe must
     
     
