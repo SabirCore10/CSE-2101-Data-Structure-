@@ -18,6 +18,7 @@ int main()
         A[i] = A[i+1];  
     }
     length--;
+    //go
 
     cout<<endl;
 
