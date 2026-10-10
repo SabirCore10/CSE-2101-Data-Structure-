@@ -33,5 +33,6 @@ int main()
     {
         cout<<A[i]<<" ";
     }
-
+    
+    //Complexity: O(n) in the worst case (inserting at the beginning).
 }

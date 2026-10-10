@@ -29,5 +29,6 @@ int main()
         cout<<A[i]<<" ";
     }
 
+//Complexity: O(n) in the worst case (deleting from the beginning).
 
 }
